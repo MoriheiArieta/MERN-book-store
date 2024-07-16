@@ -1,0 +1,33 @@
+7/12/2024 13:57
+
+---------------- PREP ---------------- 
+- MAKE SURE YOU'RE ON THE backend/ DIRECTORY
+- Create "backend" and "frontend" folder inside project folder.
+- Create ".gitignore", "README.md", and "logs.txt" 
+- "npm init -y" to add package.json to /backend
+- add "type" : "module" to package.json
+- add express and nodemon = "npm i express nodemon"
+- add "start": "node index.js", "dev": "nodemon index.js", 
+to the "scripts" :{} in package.json
+- create index.js in /backend
+- create config.js in /backend
+- download and install MongoDB
+- add MongoDB connection string to config.js and import it to index.js
+- "npm i mongoose" to install mongoose
+- download postman
+- "npm i cors" install cors package
+- import cors from cors
+
+-------------- FRONTEND --------------  
+- MAKE SURE YOU'RE ON THE frontend/ DIRECTORY
+- delete backend folder
+- "npm create vite@latest"
+- cd frontend/
+- "npm i"
+- install tailwind css
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- tailwind.config.js and postcss.config.js will be created
+- delete app.css
+- es7plus extension "rafce" to create react component
+- "npm i react-router-dom" for SPA
